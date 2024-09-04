@@ -1,0 +1,21 @@
+{
+    "name": "bloghunch/php-sdk",
+    "description": "A PHP SDK for the Bloghunch API",
+    "type": "library",
+    "require": {
+        "php": "^7.4|^8.0",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bloghunch\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bloghunch",
+            "email": "support@bloghunch.com"
+        }
+    ]
+}
